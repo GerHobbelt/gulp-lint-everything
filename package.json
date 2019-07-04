@@ -4,7 +4,9 @@
   "description": "Lint javascript sources using jshint, eslint, jscs, etc.",
   "main": "index.js",
   "scripts": {
-    "test": "gulp"
+    "test": "gulp",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -32,7 +34,8 @@
     "gulp-jscs": "1.4.0",
     "gulp-jshint": "1.9.2",
     "jshint-summary": "0.4.0",
-    "gulp-size": "1.2.1"
+    "gulp-size": "1.2.1",
+    "snyk": "^1.190.0"
   },
   "devDependencies": {
     "eslint-rules": "0.4.3",
@@ -41,5 +44,6 @@
   "pre-commit": [
     "gulp",
     "npm version"
-  ]
+  ],
+  "snyk": true
 }
