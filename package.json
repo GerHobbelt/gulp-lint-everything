@@ -27,7 +27,7 @@
   "dependencies": {
     "bad-line": "0.1.1",
     "cute-stack": "1.2.1",
-    "gulp": "3.8.11",
+    "gulp": "4.0.0",
     "gulp-eslint": "0.7.0",
     "gulp-jscs": "1.4.0",
     "gulp-jshint": "1.9.2",
