@@ -30,7 +30,7 @@
     "gulp": "3.8.11",
     "gulp-eslint": "0.7.0",
     "gulp-jscs": "1.4.0",
-    "gulp-jshint": "1.9.2",
+    "gulp-jshint": "2.0.3",
     "jshint-summary": "0.4.0",
     "gulp-size": "1.2.1"
   },
