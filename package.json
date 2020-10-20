@@ -27,10 +27,10 @@
   "dependencies": {
     "bad-line": "0.1.1",
     "cute-stack": "1.2.1",
-    "gulp": "3.8.11",
-    "gulp-eslint": "0.7.0",
-    "gulp-jscs": "1.4.0",
-    "gulp-jshint": "1.9.2",
+    "gulp": "4.0.0",
+    "gulp-eslint": "1.0.0",
+    "gulp-jscs": "2.0.0",
+    "gulp-jshint": "2.0.2",
     "jshint-summary": "0.4.0",
     "gulp-size": "1.2.1"
   },
